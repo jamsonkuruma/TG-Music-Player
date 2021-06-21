@@ -7,17 +7,17 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am an power full Telegram Groups Music bot 🎶, I let you play music in your group's voice chat.
+        f"""I am an nezoku 👇this is my developers👇
 
-join my developer gruops and shapport me :- [SL MEDIA TECH](https://t.me/SL_MEDIA_TECH_GRUOP) [sl devil](https://t.me/DataHoru_Internet)
-My command 👇
-/play - 🎶 Play the replied audio file or YouTube video 
-/pause - ▶️ Pause the audio stream 
-/resume - ⏸ Resume the audio stream 
-/skip - ↪️ Skip the current audio stream
-/mute - 🔇 Mute the userbot
-/unmute - 🔊 Unmute the userbot
-/stop - 🗑🛑 Clear the queue and remove the userbot from the call
+join my developer gruops and shapport me :- @SL_MEDIA_TECH_GRUOP , @NovaTechlk
+My developers
+
+🌟AKILA :-  @Akilawiduruwan
+🌟PAHAN :- @Humangasor
+my music play command 👇
+/mute - 🔇 Mute the user bot
+/stop - 🔊 clear play list
+/play :- play a song
         """,
         reply_markup=InlineKeyboardMarkup(
             [
