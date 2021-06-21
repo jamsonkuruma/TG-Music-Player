@@ -5,7 +5,7 @@ from helpers.filters import other_filters2
 
 
 @Client.on_message(other_filters2)
-async def start(_, message: Message):
+async def karwan(_, message: Message):
     await message.reply_text(
         f"""I am an nezoku 👇this is my developers👇
 
